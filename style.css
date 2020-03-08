@@ -189,11 +189,6 @@ h2 {
     padding: 0px;
 }
 
-h5 {
-    margin: 0px;
-    padding: 0px;
-}
-
 .headline_our {
     position: absolute;
     margin-top: 59px;
@@ -210,21 +205,12 @@ h5 {
     position: absolute;
     margin-top: 113px;
     margin-left: 40px;
-    font-size    : 18px;
-    font-family  : "Lato-light";
-    letter-spacing: 0px;
-    line-height   : 30px;
-    color        : #666d89;
-    margin-bottom: 0;  
+    font-family: "Lato-light";
+    height: 57px;
+    font-size: 18px;
+    line-height: 30px;
+    color        : #666d89;  
     text-align: justify;
-}
-h5 .row_text {
-    font-size    : 18px;
-    font-family  : "Lato-light";
-    letter-spacing: 0.15px;
-    line-height   : 30px;
-    color        : #666d89;
-    margin-bottom: 0; 
 }
 
 .Services {
@@ -236,8 +222,8 @@ h5 .row_text {
     height: 210px;
     grid-template: repeat(2, 95px) / repeat(3, 300px);
     color: black;
-    gap: 20px; 
-    row-gap: 30px;   
+    grid-gap: 20px; 
+    grid-row-gap: 29px;   
 }
 
 .Services span {
@@ -246,6 +232,7 @@ h5 .row_text {
 }
 
 .properties {
+    height: 18px;
     font-family: "Lato-black";
     font-size: 18px;
     line-height   : 15px;
@@ -300,7 +287,7 @@ h5 .row_text {
 }
 
 .text1 {
-    margin-top: 12px;
+    margin-top: 9px;
     font-family: "Lato-regular";
     font-size: 12px;
     color: #666D89;
@@ -310,12 +297,12 @@ h5 .row_text {
 }
 
 .text2 {
-    margin-top: 11px;
+    margin-top: 8px;
     font-family: "Lato-regular";
     font-size: 12px;
     color: #666D89;
     letter-spacing: 0px;
-    line-height: 1.75;
+    line-height: 1.8;
     text-align: justify;
 }
 
@@ -347,7 +334,6 @@ h5 .row_text {
     line-height: 30px;
     color: #767e9e;
     font-family: "Lato-light";
-    font-weight: 300;
     text-align: left;  
 }
   
@@ -398,7 +384,7 @@ h5 .row_text {
     margin-top: 195px;
     margin-left: 41px;
     display: grid;
-    gap: 20px;
+    grid-gap: 20px;
     grid-template: repeat(3, 187px) / repeat(4, 220px);
 }  
   
@@ -411,7 +397,7 @@ h5 .row_text {
 .image1 {
     position: relative;
     right: 10px;
-    bottom: 10px;;
+    bottom: 10px;
     overflow: hidden; 
 }
   
@@ -435,7 +421,7 @@ h5 .row_text {
 .image3 {
     position: relative;
     right: 10px;
-    bottom: 0px;;
+    bottom: 0px;
     overflow: hidden; 
 }
   
@@ -447,7 +433,7 @@ h5 .row_text {
 .image4 {
     position: relative;
     right: 24px;
-    bottom: 1px;;
+    bottom: 1px;
     overflow: hidden; 
 }
   
@@ -459,7 +445,7 @@ h5 .row_text {
 .image5 {
     position: relative;
     right: 10px;
-    bottom: 15px;;
+    bottom: 15px;
     overflow: hidden; 
 }
   
@@ -471,7 +457,7 @@ h5 .row_text {
 .image6 {
     position: relative;
     right: 16px;
-    bottom: 5px;;
+    bottom: 5px;
     overflow: hidden; 
 }
   
@@ -507,7 +493,7 @@ h5 .row_text {
 .image9 {
     position: relative;
     right: 16px;
-    bottom: 1px;;
+    bottom: 1px;
     overflow: hidden; 
 }
   
@@ -519,7 +505,7 @@ h5 .row_text {
 .image10 {
     position: relative;
     right: 141px;
-    bottom: 111px;;
+    bottom: 111px;
     overflow: hidden; 
 }
   
@@ -531,7 +517,7 @@ h5 .row_text {
 .image11 {
     position: relative;
     right: 143px;
-    bottom: 175px;;
+    bottom: 175px;
     overflow: hidden; 
 }
   
@@ -581,7 +567,6 @@ h5 .row_text {
     font-size: 18px;
     line-height: 30px;
     color: #767e9e;
-    font-weight: 500;
     text-align: justify;    
 }
 
@@ -609,7 +594,6 @@ h5 .row_text {
     line-height: 18px;
     color: #666d89;
     font-family: "Lato-black";
-    font-weight: 900;
     text-align: left;  
     overflow: hidden;
     white-space: nowrap;
@@ -625,7 +609,6 @@ h5 .row_text {
     line-height: 1.75;
     color: #767e9e;
     font-family: "Lato-regular";
-    font-weight: 400;
     text-align: justify;
     letter-spacing: -0.05px;
 }
@@ -649,7 +632,6 @@ h5 .row_text {
     line-height: 18px;
     color: #666d89;
     font-family: "Lato-black";
-    font-weight: 900;
     text-align: left;
     overflow: hidden;
     white-space: nowrap;
@@ -665,7 +647,6 @@ h5 .row_text {
     line-height: 21px;
     color: #767e9e;
     font-family: "Lato-regular";
-    font-weight: 400;
     text-align: justify;
 }
   
@@ -688,7 +669,6 @@ h5 .row_text {
     line-height: 18px;
     color: #666d89;
     font-family: "Lato-black";
-    font-weight: 900;
     text-align: left;
     overflow: hidden;
     white-space: nowrap;
@@ -704,7 +684,6 @@ h5 .row_text {
     line-height: 21px;
     color: #767e9e;
     font-family: "Lato-regular";
-    font-weight: 400;
     text-align: justify;
 }
   
@@ -733,7 +712,6 @@ img.contact {
     font-size: 30px;
     line-height: 18px;
     color: #f0d8d9;
-    font-weight: 900;
     text-align: left;
     letter-spacing: -0.1px;
 }
@@ -748,7 +726,6 @@ img.contact {
     font-size: 18px;
     line-height: 30px;
     color: #f0d8d9;
-    font-weight: 500;
     text-align: justify;
 }
 
@@ -761,7 +738,7 @@ img.contact {
 }
 
 #name {
-    width: 619px;
+    width: 604px;
     height: 36px;
     border-radius: 5px;
     border: none;
@@ -770,7 +747,7 @@ img.contact {
 
 #mail {
     margin-top: 16px;
-    width: 619px;
+    width: 604px;
     height: 36px;
     border-radius: 5px;
     border: none;
@@ -779,7 +756,7 @@ img.contact {
 
 #subject {    
     margin-top: 16px;
-    width: 619px;
+    width: 604px;
     height: 36px;
     border-radius: 5px;
     border: none;
@@ -787,8 +764,8 @@ img.contact {
 }
 
 #comment {  
-    width: 615px;
-    height: 198px;      
+    width: 602px;
+    height: 190px;      
     margin-top: 16px;
     border-radius: 5px;
     border: none;
@@ -796,17 +773,23 @@ img.contact {
     resize: none;
 }
 
-::placeholder {    
+.forme input {
     text-align: left center;
     padding-left: 15px;
-    color: #f48c8f;
     font-family: "Lato-regular";
     font-size: 12px;
 }
 
-#comment::placeholder {
-    padding-top: 7.5px;
-    padding-left: 13px;
+.forme textarea {
+    text-align: left center;
+    padding-top: 10px;
+    padding-left: 15px;
+    font-family: "Lato-regular";
+    font-size: 12px;
+}
+
+::placeholder {    
+    color: #f48c8f;
 }
 
 #send {
@@ -856,8 +839,8 @@ img.contact {
     margin-top: 23px;
     display: grid;
     grid-template: repeat(3, 11px) / 13px 200px;
-    column-gap: 10px;
-    row-gap: 10px;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
 }
 
 .image_location {
@@ -874,7 +857,6 @@ img.contact {
     text-align: left;
     grid-area: 3 / 1 / 4 / 2;
     padding-right: 5px;
-    padding-top: 2px;
 }
 
 .text_location {
